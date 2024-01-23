@@ -29,8 +29,15 @@ def cosine_similarity(x, y):
     # Return exponentiated cosine similarity
     return exp_cosine_similarity
 
-# Calculate exponentiated cosine similarity for example vectors
-cosine_similarity(x, y)
+if 'text_search' in st.session_state:
+    # Here, you need to define x and y based on your application logic.
+    # For now, I'm using placeholder random vectors for demonstration.
+    x = np.random.rand(10)  # Replace with your actual data
+    y = np.random.rand(10)  # Replace with your actual data
+
+    # Calculate cosine similarity for example vectors
+    result = cosine_similarity(x, y)
+    st.write("Cosine Similarity:", result)
     
 
 # Function to Load Glove Embeddings
