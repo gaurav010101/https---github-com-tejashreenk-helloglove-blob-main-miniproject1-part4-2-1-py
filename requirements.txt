@@ -1,0 +1,6 @@
+streamlit
+numpy
+pickleshare
+gdown
+sentence-transformers
+matplotlib
