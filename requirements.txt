@@ -1,5 +1,6 @@
-altair
-numpy
-pandas
-pydeck
 streamlit
+numpy
+pickleshare
+gdown
+sentence-transformers
+matplotlib
