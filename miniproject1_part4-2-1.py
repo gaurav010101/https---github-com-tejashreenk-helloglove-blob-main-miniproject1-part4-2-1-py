@@ -359,7 +359,7 @@ Jeffrey Pennington, Richard Socher, and Christopher D. Manning. 2014. *GloVe: Gl
 """
 )
 
-model_type = st.sidebar.selectbox("Choose the model", ("50d"), index=1)
+model_type = st.sidebar.selectbox("Choose the model", ("25d","50d"), index=1)
 
 
 st.title("Search Based Retrieval Demo")
